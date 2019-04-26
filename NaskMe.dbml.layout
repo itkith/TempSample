@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NaskMe">
+  <DataContextMoniker Name="/NaskMeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="09804ee6-0a09-4c25-9f1c-8eee5a6b8885" absoluteBounds="2.5, 0.875, 2, 3.5613631184895826">
+      <DataClassMoniker Name="/NaskMeDataContext/TblEvent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fdde4345-181f-4b9e-8bf7-f3c7158751a1" absoluteBounds="2.515, 1.335, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

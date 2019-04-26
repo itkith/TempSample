@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NaskMeDbLive" Class="NaskMeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=naskmelive.cckdaoijabm9.us-west-1.rds.amazonaws.com;Initial Catalog=NaskMeDbLive;User ID=nask" SettingsObjectName="NaskMeAnalytics.Properties.Settings" SettingsPropertyName="NaskMeDbLiveConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblEvents" Member="TblEvents">
+    <Type Name="TblEvent">
+      <Column Name="EventId" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ObjectId" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IsShared" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SharedWith" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="IsMotherload" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MotherloadItem" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="MotherloadId" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="IsDone" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ActionType" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Price" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DateModified" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsProcessed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ObjectName" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.pr_UpdateEventStatus" Method="pr_UpdateEventStatus">
+    <Parameter Name="EventIds" Parameter="eventIds" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="StatusId" Parameter="statusId" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

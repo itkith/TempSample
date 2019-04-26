@@ -1,0 +1,9 @@
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\NaskMeAnalytics.exe.config
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\NaskMeAnalytics.exe
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\NaskMeAnalytics.pdb
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\AWSSDK.Core.dll
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\AWSSDK.Core.pdb
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\bin\Debug\AWSSDK.Core.xml
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\obj\Debug\NaskMeAnalytics.exe
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\obj\Debug\NaskMeAnalytics.pdb
+E:\EDrive\NaskMeAnalytics\NaskMeAnalytics\obj\Debug\NaskMeAnalytics.csprojResolveAssemblyReference.cache

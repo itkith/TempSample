@@ -1,0 +1,6 @@
+29-10-2018 Processing Event : 1
+29-10-2018 Processing Event : 2
+29-10-2018 Processing Event : 3
+11/2/2018 Exception : ERROR [IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+11/2/2018 Exception : ERROR [IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+11/2/2018 Exception : ERROR [IM002] [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
