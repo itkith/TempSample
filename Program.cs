@@ -13,6 +13,14 @@ namespace NaskMeAnalytics
     
     class Program
     {
+
+        public static void Empty()
+        {
+
+        }
+
+             
+
         static void Main(string[] args)
         {
             List<TblEvent> lstEvents = null;
